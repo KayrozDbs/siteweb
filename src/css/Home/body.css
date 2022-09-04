@@ -1,0 +1,187 @@
+
+
+.bodycard {
+    position: relative;
+    padding: 0 3rem;
+
+    
+}
+
+.bodyfond {
+    display: flex;
+    border-radius: 1rem;
+    height: 50rem;
+    background: url('../../assets/container.jpg');
+}
+
+.profil_card{
+    display: flex;
+    height: 45rem;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 3rem;  
+}
+
+.profil_card h3 {
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 1rem;
+    border-radius: 0.6rem;
+    width: 10rem;
+    height: 3rem;
+    background-color: rgba(10, 10, 10, 0.705);
+    box-shadow: rgba(10, 10, 10, 0.4) 5px 5px, rgba(49, 43, 47, 0.3) 10px 10px,
+    rgba(66, 55, 62, 0.2) 15px 15px, rgba(90, 66, 81, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.head_profil {
+    display: flex;
+    border-radius: 1rem;
+    height: 45rem;
+    width: 15rem;
+    background-color: rgba(10, 10, 10, 0.705);
+    box-shadow: rgba(10, 10, 10, 0.4) 5px 5px, rgba(49, 43, 47, 0.3) 10px 10px,
+    rgba(66, 55, 62, 0.2) 15px 15px, rgba(90, 66, 81, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px;
+    margin-top: 5rem;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.head_profil .btn{
+    width: 8rem;
+    padding: 0.3rem 0.3rem;
+    text-align: center;
+    border-radius: 0.4rem;
+    transition: all 0.4s ease;
+    position: relative;
+}
+
+.head_profil .btn.black{
+    padding-top: 0.4rem;
+    border: 0.15rem solid white;
+    color: rgb(255, 255, 255);
+}
+
+.head_profil .btn.blue{
+    margin-top: 1rem;
+    padding-top: 0.4rem;
+    border: 0.15rem solid rgb(27, 94, 238);
+    color: white;
+}
+
+
+.head_profil .btn::after{
+    content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  transition: all 0.4s ease;
+  height: 0;
+  background: transparent;
+  border-bottom: 0.01rem solid transparent;
+  border-radius: 0.2rem;
+  z-index: -1;
+}
+
+.head_profil .btn:hover::after {
+    height: 100%;
+  }
+
+.head_profil .btn.black::after{
+    background: rgb(255, 255, 255);
+}
+
+.head_profil .btn.black:hover {
+    color: rgb(0, 0, 0);
+    z-index: 1;
+  }
+
+.head_profil .btn.blue::after {
+    background: rgb(27, 94, 238);
+}
+
+.head_profil .btn.blue:hover {
+    
+    color: rgb(255, 255, 255);
+    z-index: 1;
+  }
+
+  .bottom_profil {
+    display: flex;
+    padding-top: 2rem;
+    flex-direction: column;
+  }
+
+  .bottom_profil h4{
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+  }
+
+
+  .bottom_profil img {
+    margin-left: 0.5rem;
+    width: 48px;
+    height: 48px;
+  }
+
+  .bottom_profil .html_profil {
+    border: 0.15rem solid white;
+    margin-top: 1rem;
+    border-radius: 0.4rem;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+
+  .expe_card {
+      padding-left: 20rem;
+      display: flex;
+      height: 45rem;
+      flex-direction: column;
+      margin-top: 2rem;
+      margin-left: 3rem;  
+  
+  }
+
+  .body_xp {
+    display: flex;
+    border-radius: 1rem;
+    height: 10rem;
+    width: 35rem;
+    background-color: rgba(10, 10, 10, 0.705);
+    box-shadow: rgba(10, 10, 10, 0.4) 5px 5px, rgba(49, 43, 47, 0.3) 10px 10px,
+    rgba(66, 55, 62, 0.2) 15px 15px, rgba(90, 66, 81, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px;
+    margin-top: 5rem;
+    align-items: center; 
+  }
+
+  .expe_card h3 {
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 1rem;
+    border-radius: 0.6rem;
+    width: 14rem;
+    height: 3rem;
+    background-color: rgba(10, 10, 10, 0.705);
+    box-shadow: rgba(10, 10, 10, 0.4) 5px 5px, rgba(49, 43, 47, 0.3) 10px 10px,
+    rgba(66, 55, 62, 0.2) 15px 15px, rgba(90, 66, 81, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.expe_card img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+
